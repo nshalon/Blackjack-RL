@@ -4,7 +4,7 @@ import rl_frame
 
 
 def run_game():
-    print('hello')
+
     parser = argparse.ArgumentParser(description='run the RL blackjack simulation')
     parser.add_argument('iterations', metavar='<number of iterations to train on>', type=int, help='cycle_contig_table')
     parser.add_argument('alpha', metavar='<number of iterations to train on>', type=float, help='cycle_contig_table')
